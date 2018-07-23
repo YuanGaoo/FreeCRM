@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.513584">
-<testcase classname="Deal data Map creation" name="Free CRM create a new deal scenario" time="12.513584">
-<system-out><![CDATA[Given user is already on Login Page.........................................passed
-When title of login page is FREE CRM........................................passed
-Then user enters username username and password password....................passed
-Then user clicks on login button............................................passed
-Then user is on home page...................................................passed
-Then user moves to new deals page...........................................passed
-Then user enters deal details...............................................passed
-Then close the browser......................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="0.043775">
+<testcase classname="Free CRM application testing" name="Login with correct username and correct password" time="0.030829">
+<system-out><![CDATA[Given This is a valid login test............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Login with incorrect username and correct password" time="0.001339">
+<system-out><![CDATA[Given This is a invalid login test..........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Create a deal" time="0.001266">
+<system-out><![CDATA[Given This is a deal test case..............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Create a tasks" time="0.00417">
+<system-out><![CDATA[Given This is a tasks test case.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Verify left panel links" time="0.001465">
+<system-out><![CDATA[Given This is a tasks test case.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Search a deal" time="0.001519">
+<system-out><![CDATA[Given This is a search  deal test...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Search a contact" time="0.001652">
+<system-out><![CDATA[Given This is a search  contact test........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM application testing" name="Search a case" time="0.001535">
+<system-out><![CDATA[Given This is a search  case test...........................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -14,9 +14,11 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.cucumber.datatable.DataTable;
 
-
+// data table with maps : for parameterization of test cases
 public class DealStepDefinition {
 
+	
+	
 	
 //	@When("title of login page is FREE CRM")
 //	public void title_of_login_page_is_FREE_CRM() {
